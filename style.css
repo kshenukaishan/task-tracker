@@ -1,0 +1,120 @@
+.container {
+  border: 1px solid green;
+  border-radius: 10px;
+  max-width: 650px;
+  background-color: rgb(224, 166, 58);
+  padding: 20px;
+}
+
+* {
+  margin: 5px auto;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+}
+
+.hide {
+  display: none !important;
+}
+
+.heading {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.title {
+  padding: 5px;
+  margin: auto;
+  font-size: 35px;
+}
+
+.subtitle {
+  padding: 5px;
+  margin: auto;
+  font-size: 20px;
+}
+
+.btn-delete {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-clear {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-add {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(9, 45, 175);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.task-manager {
+  margin: auto;
+  min-width: 400px;
+  max-width: 450px;
+}
+
+.search-box,
+.task-box,
+.message-box {
+  background-color: burlywood;
+  display: block;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 25px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+}
+
+.search-box input {
+  border-radius: 5px;
+  width: 100%;
+  margin-right: 15px;
+  border: none;
+}
+
+.task-box li {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(226, 138, 74);
+  align-items: center;
+  margin: 10px 0;
+  font-size: 25px;
+  padding: 5px;
+}
+
+task-box span {
+  padding: 10px;
+}
+
+.add input {
+  width: 100%;
+  border: none;
+}
+
+.message {
+  justify-content: space-between;
+  display: flex;
+  padding: 10px;
+}

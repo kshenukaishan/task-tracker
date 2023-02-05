@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <section class="heading">
+          <p class="title">Tasks Manager</p>
+          <p class="subtitle">Add search or delete your task here</p>
+        </section>
+
+        <section class="task-manager">
+          <div class="search-box">
+            <form class="search">
+              <input
+                type="text"
+                name="task"
+                placeholder="Search task"
+                autocomplete="off"
+              />
+              <button class="btn-delete">Clear</button>
+            </form>
+          </div>
+          <div class="task-box">
+            <ul class="tasks">
+              <li class="task">
+                <span>Recording video</span
+                ><button class="btn-delete">X</button>
+              </li>
+              <li class="task">
+                <span>Editing pictures</span
+                ><button class="btn-delete">X</button>
+              </li>
+              <li class="task">
+                <span>taking photos</span><button class="btn-delete">X</button>
+              </li>
+            </ul>
+            <form class="add">
+              <input
+                type="text"
+                name="task"
+                placeholder="add task ..."
+                autocomplete="off"
+              />
+              <button class="btn-add">Add Item</button>
+            </form>
+          </div>
+          <div class="message">
+            <span></span>
+            <button class="btn-clear">Clear all</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
